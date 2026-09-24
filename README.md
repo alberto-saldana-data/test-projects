@@ -42,13 +42,13 @@ Un commit message profesional debe resumir la “intención del cambio”, no so
 Puedes usar estas convenciones simples:
 
 Prefijo	Cuándo usarlo	Ejemplo
-feat:	Añadiste un análisis nuevo.	feat: add IQR outlier flag to order_value
-fix:	Corregiste errores o celdas rotas.	fix: correct median calculation in EDA
-docs:	Actualizaste el README.	docs: add colab badge and repo instructions
-clean:	Hiciste mejoras pequeñas.	clean: format visuals and remove unused code
-data:	Subiste archivos, datos o limpieza.	data: upload cleaned everpeak dataset
+-feat:	Añadiste un análisis nuevo.	feat: add IQR outlier flag to order_value
+-fix:	Corregiste errores o celdas rotas.	fix: correct median calculation in EDA
+-docs:	Actualizaste el README.	docs: add colab badge and repo instructions
+-clean:	Hiciste mejoras pequeñas.	clean: format visuals and remove unused code
+-data:	Subiste archivos, datos o limpieza.	data: upload cleaned everpeak dataset
 
-feat: add histograms with correct bins and xlim for order_value
-feat: implement winsorization at p99
-fix: remove invalid ages (-999) before plotting
-docs: update README with project description
+-feat: add histograms with correct bins and xlim for order_value
+-feat: implement winsorization at p99
+-fix: remove invalid ages (-999) before plotting
+-docs: update README with project description
