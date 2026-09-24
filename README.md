@@ -33,3 +33,22 @@ O:
 - Construir un pipeline de limpieza reproducible
 - Analizar comportamientos, distribuciones y outliers
 - Generar insights para el equipo de Estrategia e Integración de EverPeak
+
+## Ejemplos contextualizados de commits:
+
+¿Cómo escribir buenos commit messages?
+Un commit message profesional debe resumir la “intención del cambio”, no solo “updated file”.
+
+Puedes usar estas convenciones simples:
+
+Prefijo	Cuándo usarlo	Ejemplo
+feat:	Añadiste un análisis nuevo.	feat: add IQR outlier flag to order_value
+fix:	Corregiste errores o celdas rotas.	fix: correct median calculation in EDA
+docs:	Actualizaste el README.	docs: add colab badge and repo instructions
+clean:	Hiciste mejoras pequeñas.	clean: format visuals and remove unused code
+data:	Subiste archivos, datos o limpieza.	data: upload cleaned everpeak dataset
+
+feat: add histograms with correct bins and xlim for order_value
+feat: implement winsorization at p99
+fix: remove invalid ages (-999) before plotting
+docs: update README with project description
